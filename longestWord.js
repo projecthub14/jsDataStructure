@@ -10,10 +10,11 @@ function longestWord(sen) {
     word => word.length === sorted[0].length
   );
 
-  //Check if more than one array val
+  //Check  if more than one array val
   if (longestWordArr.length === 1) {
     return longestWordArr.toString();
   }
+  //result
   return longestWordArr;
 }
 console.log(longestWord("hello there , my name is Brad"));
